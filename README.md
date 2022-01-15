@@ -3,7 +3,8 @@
 ## How to regenerate paper results:
 This repository comes with the LLVM pass for C2C along with python scripts 
 (mainly used from previous work) to generate the system call filters for 
-each application.
+each application. We used Ubuntu 18.04 with Linux kernel v4.15.0-161-generic (x86_64) to run 
+C2C, running on a different system might give slightly different filtered system calls.
 You can either compile LLVM and the pass on your own system and run the 
 scripts, or use the provided Dockerfile to build a Docker image and run 
 everything in that container. We explain the latter in this readme.
