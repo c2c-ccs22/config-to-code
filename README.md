@@ -8,7 +8,11 @@ You can either compile LLVM and the pass on your own system and run the
 scripts, or use the provided Dockerfile to build a Docker image and run 
 everything in that container. We explain the latter in this readme.
 
-After cloning the repository, please run the following steps:
+After cloning the repository, please first copy the `src` folder provided along 
+with the submission to the repository root. The Dockerfile and scripts expect the `src` 
+folder to be here.
+
+Then run the following steps:
 
 ```
 sudo docker build -t c2c-image .
